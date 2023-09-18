@@ -1,21 +1,121 @@
-h2{
-    color: blue;
-}
-input{
-    padding: 8px;
-    margin-top: 5px;
-}
-button{
-    margin-top: 5px;
-    padding: 10px;
-    background: blue;
-    color: white;
-}
-p{
+
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: bisque;
     color: red;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+     
+
+}
+.d-flex{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
     font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+ul li a{
+    cursor: pointer;
+    
+}
+.w-250 {
+width: 150px;
+padding: 30px;
+background-color: aquamarine;
+        }
+.w-550{
+    width: 450px;
+    padding: 30px;
+    background-color: burlywood;
+   
+    display: flex;
+}
+.w-450{
+    width: 350px;
+    background-color: aquamarine;
+    display: flex;
+
+  }
+.breadcrump {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+.lowerBread {
+    display: flex;
+}
+/* .lowerHeader {
+    display: flex;
+    justify-content: space-between;
+
+} */
+.login {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.lowerHeaderOne {
+    width: 100px;
+    padding: 20px;
+    background-color: mediumseagreen;
+}
+.lowerHeaderTwo {
+    width: 100px;
+    padding: 20px;
+    background-color: mediumseagreen;
+    margin-right: 150px;;
+}
+.main {
+    display: flex;
+    overflow: hidden;
+}
+.sidebar {
+    background-color: palegreen;
+    width: 350px;
+    height: 450px;
+    margin-top: 60px;
+}
+.mainContent {
+    background-color: powderblue;
+    width: 810px;
+    height: 450px;
+    margin-top: 60px;
+}
+.rightSideBar {
+    background-color: palegreen;
+    width: 350px;
+    height: 450px;
+    margin-top: 60px;
+}
+.footer{
+    width: 100%;
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    padding: 20px;
+}
+.top-content {
+    padding: 20px;
 }
 img{
-    width: 1500px;
-    height: 500px;
+    width: 250px;
+}
+button{
+    padding: 10px;
+  top: 100px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: aqua;
 }
