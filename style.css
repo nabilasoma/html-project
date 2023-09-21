@@ -108,3 +108,32 @@ input{
     height: 200px;
     width: 450px;
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    gap: 50px;
+    padding: 20px;
+}
+.fa-brands{
+    font-size: 25px;
+    background-color: maroon;
+    padding: 10px;
+    border-radius: 40px;
+}
+.footerDivOne {
+    display: flex-col;
+}
+.margin-top {
+    margin-top: 10px
+}
+.footer-about {
+    width: 300px;
+}
+.footer-list {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
